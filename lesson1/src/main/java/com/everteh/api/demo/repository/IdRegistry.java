@@ -16,7 +16,6 @@ public class IdRegistry {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
 
-    //@Autowired
     public IdRegistry(KafkaTemplate<String, String> kafkaTemplate) {
         this.kafkaTemplate = kafkaTemplate;
     }
